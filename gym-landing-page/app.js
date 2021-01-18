@@ -4,9 +4,9 @@ const navLogo = document.querySelector('#navbar__logo')
 const body = document.querySelector('body')
 
 const mobileMenu = () => {
-    menu.classList.toggle('is-active')
-    menuLinks.classList.toggle('is-active')
-    body.classList.toggle('is-active')
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('is-active');
+    body.classList.toggle('is-active');
 }
 
 menu.addEventListener('click', mobileMenu)
