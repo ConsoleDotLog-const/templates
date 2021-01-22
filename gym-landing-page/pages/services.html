@@ -4,21 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Federation Gym</title>
+    <link rel="stylesheet" type="text/css" href="../gymStlye.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar">
-        <a href="/" class="navbar__logo">Flex</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+      <a href="/index.html" class="navbar__logo">Flex</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar__menu">
+        <a href="../index.html" class="navbar__link">Home</a>
+        <a href="./pages/services.html" class="navbar__link">Services</a>
+        <a href="./plans.html" class="navbar__link">Plans</a>
+        <a href="./trainer.html" class="navbar__link">Trainer</a>
+      </div>
+    </nav>
+
+
+
+    <!-- SERVICES -->
+    <div class="services">
+      <div class="services__container">
+        <div class="">
+          <p class="topline">Features</p>
+          <h1 class="services__heading">What we offer</h1>
+          <div class="services__features">
+            <p class="services__feature">
+              <i class="fas fa-check-circle"></i>Group Fitness Classes
+            </p>
+            <p class="services__feature">
+              <i class="fas fa-check-circle"></i>Personal Trainer Sessions
+            </p>
+            <p class="services__feature">
+              <i class="fas fa-check-circle"></i>Indoor Pool
+            </p>
+            <p class="services__feature">
+              <i class="fas fa-check-circle"></i>Steam room and Sauna
+            </p>
+            <p class="services__feature">
+              <i class="fas fa-check-circle"></i>Open 24/7
+            </p>
+          </div>
         </div>
-        <div class="navbar__menu">
-          <a href="/" class="navbar__link">Home</a>
-          <a href="/services.html" class="navbar__link">Services</a>
-          <a href="/plans.html" class="navbar__link">Plans</a>
-          <a href="/trainer.html" class="navbar__link">Trainer</a>
+        <div class="services__img-container">
+          <figure class="services__img-1">
+            <img
+              src="../rss/images/24hours.webp"
+              alt="gym pic 2"
+              class="services__img"
+            />
+          </figure>
+          <figure class="services__img-2">
+            <img
+              src="../rss/images/pt.webp"
+              alt="gym pic 2"
+              class="services__img"
+            />
+          </figure>
+          <figure class="services__img-3">
+            <img
+              src="../rss/images/pool.webp"
+              alt="gym pic 2"
+              class="services__img"
+            />
+          </figure>
+          <figure class="services__img-4">
+            <img
+              src="../rss/images//gym2.jfif"
+              alt="gym pic 2"
+              class="services__img"
+            />
+          </figure>
+          <figure class="services__img-5">
+            <img
+              src="../rss/images/pullups.webp"
+              alt="gym pic 2"
+              class="services__img"
+            />
+          </figure>
         </div>
-      </nav>
+      </div>
+    </div>
+
+    
+
+   
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__desc">
+          <h1>Flex Federation</h1>
+          <p>Luxury fitness gym located in downtown Wellington</p>
+          <p id="phone">04-988-9876-00</p>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Contact Us</h2>
+          <a href="./pages/services.html" class="footer__link">Contact</a>
+          <a href="./pages/services.html" class="footer__link">Support</a>
+          <a href="./pages/services.html" class="footer__link">Sponsorship</a>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <div class="footer__title">Membership</div>
+          <a href="" class="footer__link">Pricing</a>
+          <a href="" class="footer__link">Plans</a>
+          <a href="" class="footer__link">FAQs</a>
+        </div>
+        <div class="footer__links">
+          <div class="footer__title">Social Media</div>
+          <a href="" class="footer__link">Instagram</a>
+          <a href="" class="footer__link">Facebook</a>
+          <a href="" class="footer__link">Twitter</a>
+          <a href="" class="footer__link">Youtube</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
