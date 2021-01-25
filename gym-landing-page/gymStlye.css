@@ -500,6 +500,19 @@ form{
         grid-template-columns: 1fr;
     }
 
+    /* MEMBERSHIP SECTION */
+
+    .membership__wrapper{
+       display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem 1rem ;
+    }
+
+    .membership__card{
+        width: auto;
+    }
+
+
     /* TEAM SECTION */
 
     .team__wrapper{
