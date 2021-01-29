@@ -90,7 +90,7 @@ body{
     letter-spacing: 3px;
     position: absolute;
     top: 55%;
-    left: 170px;
+    left: -170px;
     transform: rotate(-90deg);
 }
 
@@ -101,4 +101,24 @@ body{
 #menu ul li{
     display: inline-block;
     margin-left: 50px;
+}
+
+#imgs img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#img1{
+    width: 88%;
+}
+#img1{
+    width: 100%;
+}
+#img1{
+    width: 30%;
+}
+#img1{
+    width: 90%;
 }
